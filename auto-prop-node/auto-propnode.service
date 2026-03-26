@@ -1,0 +1,14 @@
+[Unit]
+Description=Auto Propagation Node Selector
+After=meshchat.service
+Requires=meshchat.service
+
+[Service]
+Type=oneshot
+User=user
+ExecStart=/home/user/meshchat-venv/bin/python /home/user/auto_propagation_node.py
+StandardOutput=append:/home/user/auto_propagation_node.log
+StandardError=append:/home/user/auto_propagation_node.log
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Run Auto Propagation Node Selector hourly
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=1h
+
+[Install]
+WantedBy=timers.target
