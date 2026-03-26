@@ -82,6 +82,14 @@ tail -f ~/auto_propagation_node.log
 
 **Note:** If your MeshChat venv or username differs from the defaults (`~/meshchat-venv`, user `user`), edit the `ExecStart` line in `auto-propnode.service` accordingly.
 
+## Contact
+
+You can reach the author on the Reticulum network via LXMF:
+
+```
+9845aed67ab981c008f6c387aa2e97b9
+```
+
 ## Licence
 
 MIT — see [LICENSE](LICENSE)
